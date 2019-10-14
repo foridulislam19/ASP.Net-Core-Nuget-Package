@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Official_Nuget_Package</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>ENLIGHT SOLUTIONS</Company>
+    <Authors>Md. Foridul Islam</Authors>
+    <Copyright>2019</Copyright>
+    <PackageProjectUrl>http://enlightsolution.com/</PackageProjectUrl>
+    <PackageTags>EnlightSolutions Test Helpers</PackageTags>
+    <PackageReleaseNotes>This is initialize release.</PackageReleaseNotes>
+    <PackageId>OfficialNugetPackage.HelperLibrary</PackageId>
+  </PropertyGroup>
+
+</Project>
