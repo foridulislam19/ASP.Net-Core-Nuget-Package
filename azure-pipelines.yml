@@ -18,6 +18,12 @@ steps:
 - task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/*.sln'
+    feedsToUse: 'select'
+    vstsFeed: '2db263e7-28b6-4c19-b8d8-04944200e416'
   inputs:
     restoreSolution: '$(solution)'
 
